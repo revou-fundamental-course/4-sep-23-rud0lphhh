@@ -1,0 +1,3057 @@
+body{
+    background-color: #F8F0E5;
+    display: block;
+    margin: 8px;
+}
+
+/*HEADER*/
+
+h1, h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.judul-besar{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    padding-right: 2px;
+    display: inline-flex;
+    justify-content: center;
+   
+}
+
+.judul-kecil{
+    font-size: 31px;
+    color: lightgray;
+    margin-right: 5px;
+    margin-top: 32px;
+    padding-left: 2px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+    background-color: #0F2C59;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    height: 100px;
+    max-width: 1050px;
+}
+
+/* MAIN */
+
+.container{
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1800px;
+    height: 2690px;
+    max-width: 1800px;
+    border-radius: 10px;
+    
+    
+}
+
+.selamat-datang{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-paragraph{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.second-paragraph{
+    margin-top: 4px;
+    text-align: center;
+}
+
+
+.judul-main-besar-persegi{
+    width: 100px;
+    height: 44px;
+    background-color: #4F709C;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    max-width: 100px;
+    text-align: center;
+}
+
+.paragraf-judul-persegi{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-top: 12px;
+}
+
+.hasil-hitung{
+    height: 35px;
+    padding-top: 60px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    font-size: 20px;
+    
+}
+
+/* PERSEGI */
+
+/* CONTENT LUAS PERSEGI */
+
+.main-persegi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px; 
+}
+
+
+.subjudul-luas-persegi{
+    width: 800px;
+    height: 100px;
+    background-color: #4F709C;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.judul-luas-persegi{
+    display: inline-flex;
+    color: white;
+    padding-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.informasi-luas-persegi{
+    width: 798px;
+    height: 890px;
+    border: 1px solid #4F709C;
+    border-top:none;
+}
+
+.persegi{
+    padding-top: 50px;
+}
+
+.rumus{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.keterangan{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.keterangan-rumus-l{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.keterangan-rumus-s{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.pembatas{
+    margin-top: 30px;
+    
+}
+
+.bagian-hitung{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.inputLuasPersegi{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 18px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #4F709C;
+    border-radius: 4px;
+    outline: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+input:focus {
+    border-color: #0F2C59;
+}
+
+.hitung{
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    border: none;
+    background-color: #4F709C;
+    color: white; 
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hitung:hover{
+    background-color: whitesmoke;
+    color: #4F709C;
+    border: 1px solid #4F709C;
+}
+
+.reset{
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F39F5A;
+    color: white; 
+    cursor: pointer;
+    position: absolute;
+}
+
+.reset:hover{
+    background-color: whitesmoke;
+    color: #F39F5A;
+    border: 1px solid #F39F5A;
+}
+
+.inputButtonHitung{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputButtonReset{
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    margin-right: 18px;
+}
+
+/* CONTENT KELILING PERSEGI */
+
+.subjudul-hitung{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-top: 11px;
+    margin-bottom: 15px;
+}
+
+.subjudul-keliling-persegi{
+    width: 800px;
+    height: 100px;
+    background-color: #4F709C;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.judul-keliling-persegi{
+    display: inline-flex;
+    color: white;
+    padding-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.informasi-keliling-persegi{
+    width: 798px;
+    height: 890px;
+    border: 1px solid #4F709C;
+    border-top:none;
+}
+
+.rumus{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.keterangan{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.keterangan-rumus-k{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.keterangan-rumus-s{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.pembatas{
+    margin-top: 30px;
+}
+
+.bagian-hitung{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputKelilingPersegi{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 18px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #4F709C;
+    border-radius: 4px;
+    outline: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+input:focus {
+    border-color: #0F2C59;
+}
+
+.hitung{
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4F709C;
+    color: white; 
+    cursor: pointer;
+    position:absolute;
+}
+
+.hitung:hover{
+    background-color: whitesmoke;
+    color: #4F709C;
+    border: 1px solid #4F709C;
+}
+
+.reset{
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F39F5A;
+    color: white; 
+    cursor: pointer;
+    position: absolute;
+}
+
+.reset:hover{
+    background-color: whitesmoke;
+    color: #F39F5A;
+    border: 1px solid #F39F5A;
+}
+
+.inputButtonHitung{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputButtonReset{
+    display: flex;
+    justify-content: right;
+    margin-top: 90px;
+    margin-right: 18px;
+}
+
+/* PEMBATAS */
+
+.pembatas-antar-konten{
+    margin-top: 960px;
+    margin-bottom: 0px;
+    width: 55%;
+    height: 2px;
+    background-color: gray;
+}
+
+
+/* PERSEGI PANJANG */
+
+.judul-main-besar-persegi-panjang{
+    width: 100px;
+    height: 44px;
+    background-color: #4F709C;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-left: 32px;
+    padding-right: 40px;
+    border-radius: 10px;
+    max-width: 100px;
+    text-align: center;
+    text-wrap:nowrap;
+}
+
+.paragraf-judul-persegi-panjang{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-top: 10px;
+}
+
+/* CONTENT LUAS PERSEGI PANJANG */
+
+.main-persegi-panjang{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px; 
+}
+
+
+.subjudul-luas-persegi-panjang{
+    width: 800px;
+    height: 100px;
+    background-color: #4F709C;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.judul-luas-persegi-panjang{
+    display: inline-flex;
+    color: white;
+    padding-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.informasi-luas-persegi-panjang{
+    width: 798px;
+    height: 990px;
+    border: 1px solid #4F709C;
+    border-top:none;
+}
+
+.persegi-panjang{
+    padding-top: 30px;
+}
+
+.rumus{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.keterangan{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.keterangan-rumus-l{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.keterangan-rumus-p{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+}
+
+.keterangan-rumus-lebar{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.pembatas{
+    margin-top: 30px;
+}
+
+.bagian-hitung{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputLuasPersegiPanjang{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 18px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #4F709C;
+    border-radius: 4px;
+    outline: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+input:focus {
+    border-color: #0F2C59;
+}
+
+.hitung{
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4F709C;
+    color: white; 
+    cursor: pointer;
+    position:absolute;
+}
+
+.hitung:hover{
+    background-color: whitesmoke;
+    color: #4F709C;
+    border: 1px solid #4F709C;
+}
+
+.reset{
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F39F5A;
+    color: white; 
+    cursor: pointer;
+    position: absolute;
+}
+
+.reset:hover{
+    background-color: whitesmoke;
+    color: #F39F5A;
+    border: 1px solid #F39F5A;
+}
+
+.inputButtonHitung{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputButtonReset{
+    display: flex;
+    justify-content: right;
+    margin-top: 90px;
+    margin-right: 18px;
+}
+
+/* CONTENT KELILING PERSEGI PANJANG*/
+
+.subjudul-hitung{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding-top: 11px;
+    margin-bottom: 15px;
+}
+
+.subjudul-keliling-persegi-panjang{
+    width: 800px;
+    height: 100px;
+    background-color: #4F709C;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.judul-keliling-persegi-panjang{
+    display: inline-flex;
+    color: white;
+    padding-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.informasi-keliling-persegi-panjang{
+    width: 798px;
+    height: 990px;
+    border: 1px solid #4F709C;
+    border-top:none;
+}
+
+.rumus{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.keterangan{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.keterangan-rumus-k{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.keterangan-rumus-s{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.pembatas{
+    margin-top: 30px;
+}
+
+.bagian-hitung{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputKelilingPersegiPanjang{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 18px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #4F709C;
+    border-radius: 4px;
+    outline: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+input:focus {
+    border-color: #0F2C59;
+}
+
+.hitung{
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4F709C;
+    color: white; 
+    cursor: pointer;
+    position:absolute;
+}
+
+.hitung:hover{
+    background-color: whitesmoke;
+    color: #4F709C;
+    border: 1px solid #4F709C;
+}
+
+.reset{
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F39F5A;
+    color: white; 
+    cursor: pointer;
+    position: absolute;
+}
+
+.reset:hover{
+    background-color: whitesmoke;
+    color: #F39F5A;
+    border: 1px solid #F39F5A;
+}
+
+.inputButtonHitung{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputButtonReset{
+    display: flex;
+    justify-content: right;
+    margin-top: 90px;
+    margin-right: 18px;
+}
+
+/* FOOTER */
+
+footer{
+    width: 1620px;
+    height: 100px;
+    background-color: #DAC0A3;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: none;
+    margin-top: 5px;
+    color: white;
+    max-width: 1620px;
+}
+
+.footer-paragraph{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding-top: 25px;
+    margin-bottom: 2px;
+}
+
+.copyright{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 300px) and (max-width: 380px) {
+    header {
+    text-align: center;
+    background-color: #0F2C59;
+    padding: 6px;
+    margin-top: 15px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 60px;
+    max-width: 1050px;
+    }
+
+    .judul-besar{
+        font-size: 25px;
+        color: whitesmoke;
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 26px;
+        padding-right: 1px;
+        display: inline-flex;
+        justify-content: center;
+       
+    }
+    
+    .judul-kecil{
+        font-size: 11px;
+        color: lightgray;
+        margin-right: 5px;
+        margin-top: 12px;
+        padding-left: 1px;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .container{
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 320px;
+        height: 4660px;
+        max-width: 1800px;
+        border-radius: 10px;
+    }
+
+    .selamat-datang{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .first-paragraph{
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .second-paragraph{
+        margin-top: 6px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;;
+    }
+
+    .hasil-hitung{
+        height: 25px;
+        padding-top: 60px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        font-size: 15px;
+        
+    }
+    
+    
+    .judul-main-besar-persegi{
+        width: 100px;
+        height: 44px;
+        background-color: #4F709C;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        max-width: 100px;
+        text-align: center;
+    }
+    
+    .paragraf-judul-persegi{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 12px;
+    }
+
+    .main-persegi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+    
+    
+    .subjudul-luas-persegi{
+        width: 290px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 290px;
+    }
+    
+    .judul-luas-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .informasi-luas-persegi{
+        width: 288px;
+        height: 830px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .rumus{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-l{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    
+    .pembatas{
+        margin-top: 30px;
+        
+    }
+    
+    .bagian-hitung{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .inputLuasPersegi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: bold;
+        display:block;
+        margin-bottom: 18px;
+    }
+    
+    input{
+        padding: 10px;
+        border: 1px solid #4F709C;
+        border-radius: 4px;
+        outline: none;
+        width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    input:focus {
+        border-color: #0F2C59;
+    }
+    
+    .hitung{
+        padding: 10px 16px;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-bottom: 0px;
+        border: none;
+        background-color: #4F709C;
+        color: white; 
+        cursor: pointer;
+        margin-top: 8px;
+    }
+    
+    .hitung:hover{
+        background-color: whitesmoke;
+        color: #4F709C;
+        border: 1px solid #4F709C;
+    }
+    
+    .reset{
+        padding: 8px 10px;
+        font-size: 10px;
+        border-radius: 4px;
+        border: none;
+        background-color: #F39F5A;
+        color: white; 
+        cursor: pointer;
+        margin-top: 70px;
+        position: absolute;
+    }
+    
+    .reset:hover{
+        background-color: whitesmoke;
+        color: #F39F5A;
+        border: 1px solid #F39F5A;
+    }
+    
+    .inputButtonHitung{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .inputButtonReset{
+        display: flex;
+        justify-content: right;
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    /*KELILING PERSEGI*/
+
+    .subjudul-hitung{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 11px;
+        margin-bottom: 15px;
+    }
+    
+    .subjudul-keliling-persegi{
+        width: 290px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 900px;
+        text-align: center;
+        max-width: 290px;
+    }
+    
+    .judul-keliling-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+    
+    .informasi-keliling-persegi{
+        width: 288px;
+        height: 830px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+    
+    .rumus{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-k{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+    .pembatas-antar-konten{
+        margin-top: 880px;
+        margin-bottom: 0px;
+        width: 55%;
+        height: 2px;
+        background-color: gray;
+    }
+
+    /* LUAS PERSEGI PANJANG*/
+    
+    .main-persegi-panjang{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+
+    .judul-luas-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+    }
+
+    .subjudul-luas-persegi-panjang{
+        width: 290px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 290px;
+    }
+
+    .informasi-luas-persegi-panjang{
+        width: 288px;
+        height: 930px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .keterangan-rumus-p{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-lebar{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+
+    /* KELILING PERSEGI PANJANG */
+
+    .judul-keliling-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+    }
+
+    .subjudul-keliling-persegi-panjang{
+        width: 290px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 1000px;
+        text-align: center;
+        max-width: 290px;
+    }
+
+    .informasi-keliling-persegi-panjang{
+        width: 288px;
+        height: 930px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+
+    footer{
+        width: 340px;
+        height: 80px;
+        background-color: #DAC0A3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: none;
+        margin-top: 0px;
+        color: white;
+        max-width: 1620px;
+    }
+    
+    .footer-paragraph{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        padding-top: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 490px){
+    header {
+    text-align: center;
+    background-color: #0F2C59;
+    padding: 6px;
+    margin-top: 15px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 60px;
+    max-width: 1050px;
+    }
+
+    .judul-besar{
+        font-size: 25px;
+        color: whitesmoke;
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 26px;
+        padding-right: 1px;
+        display: inline-flex;
+        justify-content: center;
+       
+    }
+    
+    .judul-kecil{
+        font-size: 11px;
+        color: lightgray;
+        margin-right: 5px;
+        margin-top: 12px;
+        padding-left: 1px;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .container{
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 28px;
+        width: 350px;
+        height: 4660px;
+        max-width: 1800px;
+        border-radius: 10px;
+    }
+
+    .selamat-datang{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .first-paragraph{
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .second-paragraph{
+        margin-top: 6px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;;
+    }
+
+    .hasil-hitung{
+        height: 25px;
+        padding-top: 60px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        font-size: 15px;
+        
+    }
+    
+    
+    .judul-main-besar-persegi{
+        width: 100px;
+        height: 44px;
+        background-color: #4F709C;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        max-width: 100px;
+        text-align: center;
+    }
+    
+    .paragraf-judul-persegi{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 12px;
+    }
+
+    .main-persegi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+    
+    
+    .subjudul-luas-persegi{
+        width: 300px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 290px;
+    }
+    
+    .judul-luas-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .informasi-luas-persegi{
+        width: 288px;
+        height: 830px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .rumus{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-l{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    
+    .pembatas{
+        margin-top: 30px;
+        
+    }
+    
+    .bagian-hitung{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .inputLuasPersegi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: bold;
+        display:block;
+        margin-bottom: 18px;
+    }
+    
+    input{
+        padding: 10px;
+        border: 1px solid #4F709C;
+        border-radius: 4px;
+        outline: none;
+        width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    input:focus {
+        border-color: #0F2C59;
+    }
+    
+    .hitung{
+        padding: 10px 16px;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-bottom: 0px;
+        border: none;
+        background-color: #4F709C;
+        color: white; 
+        cursor: pointer;
+        margin-top: 8px;
+    }
+    
+    .hitung:hover{
+        background-color: whitesmoke;
+        color: #4F709C;
+        border: 1px solid #4F709C;
+    }
+    
+    .reset{
+        padding: 8px 10px;
+        font-size: 10px;
+        border-radius: 4px;
+        border: none;
+        background-color: #F39F5A;
+        color: white; 
+        cursor: pointer;
+        margin-top: 70px;
+        position: absolute;
+    }
+    
+    .reset:hover{
+        background-color: whitesmoke;
+        color: #F39F5A;
+        border: 1px solid #F39F5A;
+    }
+    
+    .inputButtonHitung{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .inputButtonReset{
+        display: flex;
+        justify-content: right;
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    /*KELILING PERSEGI*/
+
+    .subjudul-hitung{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 11px;
+        margin-bottom: 15px;
+    }
+    
+    .subjudul-keliling-persegi{
+        width: 300px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 900px;
+        text-align: center;
+        max-width: 290px;
+    }
+    
+    .judul-keliling-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+    
+    .informasi-keliling-persegi{
+        width: 288px;
+        height: 830px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+    
+    .rumus{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-k{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+    .pembatas-antar-konten{
+        margin-top: 880px;
+        margin-bottom: 0px;
+        width: 55%;
+        height: 2px;
+        background-color: gray;
+    }
+
+    /* LUAS PERSEGI PANJANG*/
+    
+    .main-persegi-panjang{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+
+    .judul-luas-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+    }
+
+    .subjudul-luas-persegi-panjang{
+        width: 300px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 290px;
+    }
+
+    .informasi-luas-persegi-panjang{
+        width: 288px;
+        height: 930px;
+        border: 1px solid #4F709C;
+        border-top:none;
+        font-size: 24px;
+    }
+
+    .keterangan-rumus-p{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-lebar{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+
+    /* KELILING PERSEGI PANJANG */
+
+    .judul-keliling-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+    }
+
+    .subjudul-keliling-persegi-panjang{
+        width: 300px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 1000px;
+        text-align: center;
+        max-width: 290px;
+    }
+
+    .informasi-keliling-persegi-panjang{
+        width: 288px;
+        height: 930px;
+        border: 1px solid #4F709C;
+        border-top:none;
+        font-size: 24px
+    }
+
+
+
+
+    footer{
+        width: 340px;
+        height: 80px;
+        background-color: #DAC0A3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: none;
+        margin-top: 40px;
+        color: white;
+        max-width: 1620px;
+    }
+    
+    .footer-paragraph{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        padding-top: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 750px){
+    header {
+    text-align: center;
+    background-color: #0F2C59;
+    padding: 6px;
+    margin-top: 15px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 60px;
+    max-width: 1050px;
+    }
+
+    .judul-besar{
+        font-size: 25px;
+        color: whitesmoke;
+        margin-right: 0px;
+        margin-top: 15px;
+        margin-bottom: 26px;
+        padding-right: 1px;
+        display: inline-flex;
+        justify-content: center;
+       
+    }
+    
+    .judul-kecil{
+        font-size: 11px;
+        color: lightgray;
+        margin-right: 5px;
+        margin-top: 12px;
+        padding-left: 1px;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .container{
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 480px;
+        height: 4660px;
+        max-width: 1800px;
+        border-radius: 10px;
+    }
+
+    .selamat-datang{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .first-paragraph{
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .second-paragraph{
+        margin-top: 6px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;;
+    }
+
+    .hasil-hitung{
+        height: 25px;
+        padding-top: 60px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        font-size: 15px;
+        
+    }
+    
+    
+    .judul-main-besar-persegi{
+        width: 100px;
+        height: 44px;
+        background-color: #4F709C;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        max-width: 100px;
+        text-align: center;
+    }
+    
+    .paragraf-judul-persegi{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 12px;
+    }
+
+    .main-persegi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+    
+    
+    .subjudul-luas-persegi{
+        width: 400px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 400px;
+    }
+    
+    .judul-luas-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .informasi-luas-persegi{
+        width: 398px;
+        height: 830px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .rumus{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-l{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    
+    .pembatas{
+        margin-top: 30px;
+        
+    }
+    
+    .bagian-hitung{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .inputLuasPersegi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        display:block;
+        margin-bottom: 18px;
+    }
+    
+    input{
+        padding: 10px;
+        border: 1px solid #4F709C;
+        border-radius: 4px;
+        outline: none;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    input:focus {
+        border-color: #0F2C59;
+    }
+    
+    .hitung{
+        padding: 10px 16px;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-bottom: 0px;
+        border: none;
+        background-color: #4F709C;
+        color: white; 
+        cursor: pointer;
+        margin-top: 8px;
+    }
+    
+    .hitung:hover{
+        background-color: whitesmoke;
+        color: #4F709C;
+        border: 1px solid #4F709C;
+    }
+    
+    .reset{
+        padding: 8px 10px;
+        font-size: 10px;
+        border-radius: 4px;
+        border: none;
+        background-color: #F39F5A;
+        color: white; 
+        cursor: pointer;
+        margin-top: 70px;
+        position: absolute;
+    }
+    
+    .reset:hover{
+        background-color: whitesmoke;
+        color: #F39F5A;
+        border: 1px solid #F39F5A;
+    }
+    
+    .inputButtonHitung{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .inputButtonReset{
+        display: flex;
+        justify-content: right;
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    /*KELILING PERSEGI*/
+
+    .subjudul-hitung{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 11px;
+        margin-bottom: 15px;
+    }
+    
+    .subjudul-keliling-persegi{
+        width: 400px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 900px;
+        text-align: center;
+        max-width: 400px;
+    }
+    
+    .judul-keliling-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+    
+    .informasi-keliling-persegi{
+        width: 398px;
+        height: 830px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+    
+    .rumus{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-k{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+    .pembatas-antar-konten{
+        margin-top: 880px;
+        margin-bottom: 0px;
+        width: 55%;
+        height: 2px;
+        background-color: gray;
+    }
+
+    /* LUAS PERSEGI PANJANG*/
+    
+    .main-persegi-panjang{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+
+    .judul-luas-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+
+    .subjudul-luas-persegi-panjang{
+        width: 400px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 400px;
+    }
+
+    .informasi-luas-persegi-panjang{
+        width: 398px;
+        height: 930px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .keterangan-rumus-p{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+    
+    .keterangan-rumus-lebar{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+
+
+    /* KELILING PERSEGI PANJANG */
+
+    .judul-keliling-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+
+    .subjudul-keliling-persegi-panjang{
+        width: 400px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 1000px;
+        text-align: center;
+        max-width: 400px;
+    }
+
+    .informasi-keliling-persegi-panjang{
+        width: 398px;
+        height: 930px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+
+
+
+    footer{
+        width: 450px;
+        height: 80px;
+        background-color: #DAC0A3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: none;
+        margin-top: 40px;
+        color: white;
+        max-width: 1620px;
+    }
+    
+    .footer-paragraph{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        padding-top: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 900px){
+    header {
+    text-align: center;
+    background-color: #0F2C59;
+    padding: 6px;
+    margin-top: 18px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 80px;
+    max-width: 1050px;
+   
+    }
+
+    .judul-besar{
+        font-size: 35px;
+        color: whitesmoke;
+        margin-right: 0px;
+        margin-top: 18px;
+        margin-bottom: 26px;
+        padding-right: 3px;
+        display: inline-flex;
+        justify-content: center;
+       
+    }
+    
+    .judul-kecil{
+        font-size: 16px;
+        color: lightgray;
+        margin-right: 5px;
+        margin-top: 18px;
+        padding-left: 3px;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .container{
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 700px;
+        height: 4660px;
+        max-width: 1800px;
+        border-radius: 10px;
+    }
+
+    .selamat-datang{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .first-paragraph{
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .second-paragraph{
+        margin-top: 4px;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .hasil-hitung{
+        height: 25px;
+        padding-top: 60px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        font-size: 20px;
+        
+    }
+    
+    
+    .judul-main-besar-persegi{
+        width: 100px;
+        height: 44px;
+        background-color: #4F709C;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        max-width: 100px;
+        text-align: center;
+    }
+    
+    .paragraf-judul-persegi{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 12px;
+    }
+
+    .main-persegi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+    
+    
+    .subjudul-luas-persegi{
+        width: 600px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 600px;
+    }
+    
+    .judul-luas-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .informasi-luas-persegi{
+        width: 598px;
+        height: 850px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .rumus{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-l{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    
+    .pembatas{
+        margin-top: 30px;
+        
+    }
+    
+    .bagian-hitung{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .inputLuasPersegi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 25px;
+        margin-top: 20px;
+        font-weight: bold;
+        display:block;
+        margin-bottom: 18px;
+    }
+    
+    input{
+        padding: 10px;
+        border: 1px solid #4F709C;
+        border-radius: 4px;
+        outline: none;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    input:focus {
+        border-color: #0F2C59;
+    }
+    
+    .hitung{
+        padding: 12px 18px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-bottom: 0px;
+        border: none;
+        background-color: #4F709C;
+        color: white; 
+        cursor: pointer;
+        margin-top: 8px;
+    }
+    
+    .hitung:hover{
+        background-color: whitesmoke;
+        color: #4F709C;
+        border: 1px solid #4F709C;
+    }
+    
+    .reset{
+        padding: 10px 12px;
+        font-size: 12px;
+        border-radius: 4px;
+        border: none;
+        background-color: #F39F5A;
+        color: white; 
+        cursor: pointer;
+        margin-top: 60px;
+        position: absolute;
+    }
+    
+    .reset:hover{
+        background-color: whitesmoke;
+        color: #F39F5A;
+        border: 1px solid #F39F5A;
+    }
+    
+    .inputButtonHitung{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .inputButtonReset{
+        display: flex;
+        justify-content: right;
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    /*KELILING PERSEGI*/
+
+    .subjudul-hitung{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 11px;
+        margin-bottom: 15px;
+    }
+    
+    .subjudul-keliling-persegi{
+        width: 600px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 900px;
+        text-align: center;
+        max-width: 600px;
+    }
+    
+    .judul-keliling-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+    
+    .informasi-keliling-persegi{
+        width: 598px;
+        height: 850px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+    
+    .rumus{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-k{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+
+    .pembatas-antar-konten{
+        margin-top: 910px;
+        margin-bottom: 0px;
+        width: 55%;
+        height: 2px;
+        background-color: gray;
+    }
+
+    /* LUAS PERSEGI PANJANG*/
+    
+    .main-persegi-panjang{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+
+    .judul-luas-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+
+    .subjudul-luas-persegi-panjang{
+        width: 600px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .informasi-luas-persegi-panjang{
+        width: 598px;
+        height: 950px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .keterangan-rumus-p{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-lebar{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+
+
+    /* KELILING PERSEGI PANJANG */
+
+    .judul-keliling-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+
+    .subjudul-keliling-persegi-panjang{
+        width: 600px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 1000px;
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .informasi-keliling-persegi-panjang{
+        width: 598px;
+        height: 950px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+
+
+
+    footer{
+        width: 750px;
+        height: 80px;
+        background-color: #DAC0A3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: none;
+        margin-top: 40px;
+        color: white;
+        max-width: 1620px;
+    }
+    
+    .footer-paragraph{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        padding-top: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1400px){
+    header {
+    text-align: center;
+    background-color: #0F2C59;
+    padding: 6px;
+    margin-top: 18px;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 80px;
+    max-width: 1050px;
+   
+    }
+
+    .judul-besar{
+        font-size: 35px;
+        color: whitesmoke;
+        margin-right: 0px;
+        margin-top: 18px;
+        margin-bottom: 26px;
+        padding-right: 3px;
+        display: inline-flex;
+        justify-content: center;
+       
+    }
+    
+    .judul-kecil{
+        font-size: 16px;
+        color: lightgray;
+        margin-right: 5px;
+        margin-top: 18px;
+        padding-left: 3px;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .container{
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 800px;
+        height: 4750px;
+        max-width: 1800px;
+        border-radius: 10px;
+    }
+
+    .selamat-datang{
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .first-paragraph{
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .second-paragraph{
+        margin-top: 4px;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .hasil-hitung{
+        height: 25px;
+        padding-top: 60px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        font-size: 20px;
+        
+    }
+    
+    
+    .judul-main-besar-persegi{
+        width: 100px;
+        height: 44px;
+        background-color: #4F709C;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        max-width: 100px;
+        text-align: center;
+    }
+    
+    .paragraf-judul-persegi{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 12px;
+    }
+
+    .main-persegi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+    
+    
+    .subjudul-luas-persegi{
+        width: 700px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 700px;
+    }
+    
+    .judul-luas-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .informasi-luas-persegi{
+        width: 698px;
+        height: 850px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .rumus{
+        font-size: 100px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-l{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    
+    .pembatas{
+        margin-top: 30px;
+        
+    }
+    
+    .bagian-hitung{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .inputLuasPersegi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label{
+        font-size: 25px;
+        margin-top: 20px;
+        font-weight: bold;
+        display:block;
+        margin-bottom: 18px;
+    }
+    
+    input{
+        padding: 10px;
+        border: 1px solid #4F709C;
+        border-radius: 4px;
+        outline: none;
+        width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+    input:focus {
+        border-color: #0F2C59;
+    }
+    
+    .hitung{
+        padding: 12px 18px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-bottom: 0px;
+        border: none;
+        background-color: #4F709C;
+        color: white; 
+        cursor: pointer;
+        margin-top: 8px;
+    }
+    
+    .hitung:hover{
+        background-color: whitesmoke;
+        color: #4F709C;
+        border: 1px solid #4F709C;
+    }
+    
+    .reset{
+        padding: 10px 12px;
+        font-size: 12px;
+        border-radius: 4px;
+        border: none;
+        background-color: #F39F5A;
+        color: white; 
+        cursor: pointer;
+        margin-top: 60px;
+        position: absolute;
+    }
+    
+    .reset:hover{
+        background-color: whitesmoke;
+        color: #F39F5A;
+        border: 1px solid #F39F5A;
+    }
+    
+    .inputButtonHitung{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .inputButtonReset{
+        display: flex;
+        justify-content: right;
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    /*KELILING PERSEGI*/
+
+    .subjudul-hitung{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-top: 11px;
+        margin-bottom: 15px;
+    }
+    
+    .subjudul-keliling-persegi{
+        width: 700px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 900px;
+        text-align: center;
+        max-width: 700px;
+    }
+    
+    .judul-keliling-persegi{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+    
+    .informasi-keliling-persegi{
+        width: 698px;
+        height: 850px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+    
+    .rumus{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .keterangan{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-k{
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-s{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+
+    .pembatas-antar-konten{
+        margin-top: 910px;
+        margin-bottom: 0px;
+        width: 55%;
+        height: 2px;
+        background-color: gray;
+    }
+
+    /* LUAS PERSEGI PANJANG*/
+    
+    .main-persegi-panjang{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px; 
+    }
+
+    .judul-luas-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+
+    .subjudul-luas-persegi-panjang{
+        width: 700px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 50px;
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .informasi-luas-persegi-panjang{
+        width: 698px;
+        height: 950px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+    .keterangan-rumus-p{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    
+    .keterangan-rumus-lebar{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+
+
+    /* KELILING PERSEGI PANJANG */
+
+    .judul-keliling-persegi-panjang{
+        display: inline-flex;
+        color: white;
+        padding-top: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+    }
+
+    .subjudul-keliling-persegi-panjang{
+        width: 700px;
+        height: 100px;
+        background-color: #4F709C;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 1000px;
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .informasi-keliling-persegi-panjang{
+        width: 698px;
+        height: 950px;
+        border: 1px solid #4F709C;
+        border-top:none;
+    }
+
+
+
+
+    footer{
+        width: 850px;
+        height: 80px;
+        background-color: #DAC0A3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: none;
+        margin-top: 40px;
+        color: white;
+        max-width: 1620px;
+    }
+    
+    .footer-paragraph{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        padding-top: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+}

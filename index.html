@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./javascript/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="judul-besar">Katik</h1>
+        <h3 class="judul-kecil">Kalkulator Matematik</h3>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1 class="selamat-datang">Hai sobat!</h1>
+                <p class="first-paragraph">Selamat datang di Katik!</p>
+                <p class="second-paragraph">Ini adalah sebuah apps web sederhana untuk hitung nilai luas dari keliling dan bangun datar.</p>
+
+                <!-- PERSEGI -->
+
+                <div class="judul-main-besar-persegi">
+                    <p class="paragraf-judul-persegi">Persegi</p>
+                </div>
+                <div class="main-persegi">
+                    <div class="subjudul-luas-persegi">
+                        <h1 class="judul-luas-persegi">Luas Persegi</h1>
+                            <div class="informasi-luas-persegi">
+                                <img src="/img/persegi-removebg-preview.png" class="persegi">
+                                <p class="keterangan">Rumus luas persegi yaitu :</p>
+                                <p class="rumus">L = S x S</p>
+                                <p class="keterangan">Keterangan :</p>
+                                <p class="keterangan-rumus-l">L = luas</p>
+                                <p class="keterangan-rumus-s">S = sisi</p>
+                                <hr class="pembatas">
+
+                                <section class="bagian-hitung">
+                                    <section class="inputLuasPersegi">
+                                        <label for="display-luas-persegi">Hitung Luas Persegi</label>
+                                        <input class="form-control" id="sisi-persegi-untuk-luas" name="display-luas-persegi" placeholder="Masukkan nilai sisi..." type="text" required="">
+                                    </section>
+                                    <section class="inputButtonHitung">
+                                        <button class="hitung" onClick="hitungLuasPersegi()">Hitung</button>
+                                    </section>
+                                    <section class="hasil-hitung">
+                                        <p>Luas persegi adalah: <span id="luas-persegi"></span>
+                                    </section>
+                                    <section class="inputButtonReset">
+                                        <button class="reset" onclick="clearResultLuasPersegi()">Reset</button>
+                                    </section>
+                                    
+                                </section>
+                            </div>
+                    </div>
+
+                    <div class="subjudul-keliling-persegi">
+                        <h1 class="judul-keliling-persegi">Keliling Persegi</h1>
+                            <div class="informasi-keliling-persegi">
+                                <img src="/img/persegi-removebg-preview.png" class="persegi">
+                                    <p class="keterangan">Rumus keliling persegi yaitu :</p>
+                                    <p class="rumus">K = 4 x S</p>
+                                    <p class="keterangan">Keterangan :</p>
+                                    <p class="keterangan-rumus-k">K = keliling</p>
+                                    <p class="keterangan-rumus-s">S = sisi</p>
+                                    <hr class="pembatas">
+
+                            <section class="bagian-hitung">
+                                <section class="inputKelilingPersegi">
+                                    <label for="display-keliling-persegi">Hitung Keliling Persegi</label>
+                                    <input class="form-control" id="sisi-persegi-untuk-keliling" name="display-keliling-persegi" placeholder="Masukkan nilai sisi..." type="text" required="">
+                                </section>
+                                <section class="inputButtonHitung">
+                                    <button class="hitung" onClick="hitungKelilingPersegi()">Hitung</button>
+                                </section>
+                                <section class="hasil-hitung">
+                                    <p>Keliling persegi adalah: <span id="keliling-persegi"></span>
+                                </section>
+                                <section class="inputButtonReset">
+                                    <button class="reset" onclick="clearResultKelilingPersegi()">Reset</button>
+                                </section>
+                                
+                            </div>
+                    </div>      
+                </div>
+                
+                <hr class="pembatas-antar-konten">
+
+                <!-- PERSEGI PANJANG -->
+
+                <div class="judul-main-besar-persegi-panjang">
+                    <p class="paragraf-judul-persegi-panjang">Persegi Panjang</p>
+                </div>
+                <div class="main-persegi-panjang">
+                    <div class="subjudul-luas-persegi-panjang">
+                        <h1 class="judul-luas-persegi-panjang">Luas Persegi Panjang</h1>
+                            <div class="informasi-luas-persegi-panjang">
+                                <img src="/img/persegi-panjang-removebg-preview.png" class="persegi-panjang">
+                                <p class="keterangan">Rumus luas persegi panjang yaitu :</p>
+                                <p class="rumus">L = P x l</p>
+                                <p class="keterangan">Keterangan :</p>
+                                <p class="keterangan-rumus-l">L = luas</p>
+                                <p class="keterangan-rumus-p">p = panjang</p>
+                                <p class="keterangan-rumus-lebar">l = lebar</p>
+                                <hr class="pembatas">
+
+                                <section class="bagian-hitung">
+                                    <section class="inputLuasPersegiPanjang">
+                                        <label for="display-luas-persegi-panjang">Hitung Luas Persegi Panjang</label>
+                                        <input class="form-control" id="panjang-untuk-luas-persegi-panjang" name="display-luas-persegi-panjang" placeholder="Masukkan nilai panjang..." type="text" required="">
+                                        <input class="form-control" id="lebar-untuk-luas-persegi-panjang" name="display-luas-persegi-panjang" placeholder="Masukkan nilai lebar..." type="text" required="">
+                                    </section>
+                                    <section class="inputButtonHitung">
+                                        <button class="hitung" onClick="hitungLuasPersegiPanjang()">Hitung</button>
+                                    </section>
+                                    <section class="hasil-hitung">
+                                        <p>Luas persegi panjang adalah: <span id="luas-persegi-panjang"></span>
+                                    </section>
+                                    <section class="inputButtonReset">
+                                        <button class="reset" onclick="clearResultLuasPersegiPanjang()">Reset</button>
+                                    </section>
+                                   
+                                </section>
+                            </div>
+                    </div>
+
+                    <div class="subjudul-keliling-persegi-panjang">
+                        <h1 class="judul-keliling-persegi-panjang">Keliling Persegi Panjang</h1>
+                            <div class="informasi-keliling-persegi-panjang">
+                                <img src="/img/persegi-panjang-removebg-preview.png" class="persegi-panjang">
+                                    <p class="keterangan">Rumus keliling persegi panjang yaitu :</p>
+                                    <p class="rumus">K = 2 x (P + l)</p>
+                                    <p class="keterangan">Keterangan :</p>
+                                    <p class="keterangan-rumus-l">L = luas</p>
+                                    <p class="keterangan-rumus-p">p = panjang</p>
+                                    <p class="keterangan-rumus-lebar">l = lebar</p>
+                                    <hr class="pembatas">
+
+                            <section class="bagian-hitung">
+                                <section class="inputKelilingPersegiPanjang">
+                                    <label for="display-keliling-persegi-panjang">Hitung Keliling Persegi Panjang</label>
+                                    <input class="form-control" id="panjang-untuk-keliling-persegi-panjang" name="display-keliling-persegi-panjang" placeholder="Masukkan nilai panjang..." type="text" required="">
+                                        <input class="form-control" id="lebar-untuk-keliling-persegi-panjang" name="display-keliling-persegi-panjang" placeholder="Masukkan nilai lebar..." type="text" required="">
+                                </section>
+                                <section class="inputButtonHitung">
+                                    <button class="hitung" onClick="hitungKelilingPersegiPanjang()">Hitung</button>
+                                </section>
+                                <section class="hasil-hitung">
+                                    <p>Keliling persegi panjang adalah: <span id="keliling-persegi-panjang"></span>
+                                </section>
+                                <section class="inputButtonReset">
+                                    <button class="reset" onclick="clearResultKelilingPersegiPanjang()">Reset</button>
+                                </section>
+                               
+                            </div>
+                    </div>      
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-paragraph">Made with <span style="font-size:20px;color:#FF6969;">&hearts;</span> by Kevin Davies Basyuli.</p>
+        <p class="copyright">&copy; Copyright 2023. All Rights Reserved.</p>
+        
+    </footer>
+</body>
+</html>
